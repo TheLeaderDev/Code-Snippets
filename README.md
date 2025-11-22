@@ -13,3 +13,25 @@ The goal is to create a practical archive — so I can easily find them myself, 
 
 - <a href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/dateTime.php">PHP Function to Get Iran Time - shamsi_dateTime();</a>
 
+<br>
+
+<details dir="rtl">
+<summary>فارسی (کلیک برای باز کردن)</summary> <br>
+
+<h1 align="center">⚡️ خوش آمدید به تکه‌کدها ⚡️</h1>
+<h6 align="center">اینجا مجموعه‌ای از تکه‌کدها را به اشتراک می‌گذارم، اکثر آن‌ها به زبان PHP هستند.</h6>
+<br>
+<br>
+
+> **P.S:**
+> از این به بعد، هر تکه‌کدی که اضافه کنم، در اینجا ثبت خواهد شد.  
+> هدف ایجاد یک آرشیو کاربردی است — تا خودم راحت‌تر به آن‌ها دسترسی داشته باشم و شما هم بتوانید از آن‌ها استفاده کنید یا ایده بگیرید. 🌱💻
+
+<h4 align="right">با دادن ستاره به این ریپو بهم انرژی بده ⭐، ممنونم!</h4>
+<br>
+
+<h1 align="right">مجموعه کدها:</h1>
+
+- <a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/dateTime.php">تابع PHP برای دریافت زمان ایران - shamsi_dateTime();</a>
+  
+</details>
