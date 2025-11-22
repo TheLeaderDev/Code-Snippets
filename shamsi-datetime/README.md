@@ -1,6 +1,8 @@
 <h1 align="center">Usage Guide for shamsi_dateTime() Function</h1>
 <p align="center">This function converts the system or server Gregorian date and time into the Persian (Solar Hijri) calendar.
 Using this function, you can easily retrieve the year, month, day, hour, minute, second, and even the names of months and weekdays in Persian.</p>
+
+<h4 align="center">Give me some energy ⭐ by starring this repo, thank you!</h4>
 <br>
 <h1 align="left">How to Use</h1>
 <h5>Add the file to your project:</h5>
@@ -28,7 +30,6 @@ echo $dataTime['time'];        // Time in HH:mm:ss format
 echo $dataTime['datetime'];    // Combined date and time
 echo $dataTime['weekday'];     // Weekday name (Persian)
 echo $dataTime['month_name'];  // Month name (Persian)
-
 ```
 
 ## License Notice
