@@ -8,3 +8,32 @@ Using this function, you can easily retrieve the year, month, day, hour, minute,
 ```
 include 'shamsi_dateTime.php';
 ```
+<h5>Call the function:</h5>
+
+```
+$dataTime = shamsi_dateTime();
+```
+
+<h5>Access the output values:</h5>
+
+```
+echo $dataTime['year'];        // Persian year
+echo $dataTime['month'];       // Persian month (number)
+echo $dataTime['day'];         // Persian day
+echo $dataTime['hour'];        // Hour
+echo $dataTime['minute'];      // Minute
+echo $dataTime['second'];      // Second
+echo $dataTime['date'];        // Date in yyyy/mm/dd format
+echo $dataTime['time'];        // Time in HH:mm:ss format
+echo $dataTime['datetime'];    // Combined date and time
+echo $dataTime['weekday'];     // Weekday name (Persian)
+echo $dataTime['month_name'];  // Month name (Persian)
+
+```
+
+## License Notice
+
+The `LICENSE` file is included alongside this code.  
+You must include and respect it when using this code,  
+and give proper credit to the original author (`AmIR / TheLeaderDev`).  
+Ignoring the license may violate copyright.
