@@ -9,7 +9,7 @@ The goal is to create a practical archive — so I can easily find them myself, 
 <h4 align="left">Give me some energy ⭐ by starring this repo, thank you!</h4>
 <br>
 
-<h1 align="left">Published Code Collection:</h1>
+<h1 align="left">Code Collections:</h1>
 
 - PHP Function to Get Iran Time in Shamsi shamsi_dateTime();
 
