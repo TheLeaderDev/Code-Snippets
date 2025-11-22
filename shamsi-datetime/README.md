@@ -5,18 +5,21 @@ Using this function, you can easily retrieve the year, month, day, hour, minute,
 <h4 align="center">Give me some energy ⭐ by starring this repo, thank you!</h4>
 <br>
 <h1 align="left">How to Use</h1>
-<h5>Add the file to your project:</h5>
+
+<a href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/dateTime.php">Open the code snippet file</a>
+
+<h5 align="left">Add the file to your project:</h5>
 
 ```
 include 'shamsi_dateTime.php';
 ```
-<h5>Call the function:</h5>
+<h5 align="left">Call the function:</h5>
 
 ```
 $dataTime = shamsi_dateTime();
 ```
 
-<h5>Access the output values:</h5>
+<h5 align="left">Access the output values:</h5>
 
 ```
 echo $dataTime['year'];        // Persian year
@@ -32,9 +35,15 @@ echo $dataTime['weekday'];     // Weekday name (Persian)
 echo $dataTime['month_name'];  // Month name (Persian)
 ```
 
-## License Notice
+<br>
 
-The `LICENSE` file is included alongside this code.  
-You must include and respect it when using this code,  
-and give proper credit to the original author (`AmIR / TheLeaderDev`).  
-Ignoring the license may violate copyright.
+> **License Notice:** The `LICENSE` file is included alongside this code. You must include and respect it when using this code, and give proper credit to the original author (AmIR / TheLeaderDev). Ignoring the license may violate copyright.
+
+<br>
+
+<details dir="rtl">
+<summary>فارسی (کلیک برای باز کردن)</summary> <br>
+
+
+
+</details>
