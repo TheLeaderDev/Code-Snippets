@@ -44,6 +44,46 @@ echo $dataTime['month_name'];  // Month name (Persian)
 <details dir="rtl">
 <summary>فارسی (کلیک برای باز کردن)</summary> <br>
 
+<h1 align="center">راهنمای استفاده از تابع shamsi_dateTime()</h1>
+<p align="center">این تابع تاریخ و زمان میلادی سیستم یا سرور را به تقویم شمسی (هجری شمسی) تبدیل می‌کند.  
+با استفاده از این تابع، می‌توانید به راحتی سال، ماه، روز، ساعت، دقیقه، ثانیه و حتی نام ماه‌ها و روزهای هفته را به زبان فارسی دریافت کنید.</p>
+
+<h4 align="center">با دادن ⭐ به این ریپو انرژی بدهید، ممنون!</h4>
+<br>
+<h1 align="right">نحوه استفاده</h1>
+
+<a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/dateTime.php">فایل تکه کد را باز کنید</a>
+
+<h5 align="right">فایل را به پروژه خود اضافه کنید:</h5>
+
+```
+include 'shamsi_dateTime.php';
+```
+
+<h5 align="right">تابع را فراخوانی کنید:</h5>
+
+```
+$dataTime = shamsi_dateTime();
+```
+
+<h5 align="right">دسترسی به مقادیر خروجی:</h5>
+
+```
+echo $dataTime['year']; // سال شمسی
+echo $dataTime['month']; // ماه شمسی (عدد)
+echo $dataTime['day']; // روز شمسی
+echo $dataTime['hour']; // ساعت
+echo $dataTime['minute']; // دقیقه
+echo $dataTime['second']; // ثانیه
+echo $dataTime['date']; // تاریخ به صورت yyyy/mm/dd
+echo $dataTime['time']; // زمان به صورت HH:mm:ss
+echo $dataTime['datetime']; // تاریخ و زمان ترکیبی
+echo $dataTime['weekday']; // نام روز هفته 
+echo $dataTime['month_name']; // نام ماه 
+```
+<br>
+
+> **اطلاعیه لایسنس:** فایل `LICENSE` همراه با این کد ارائه شده است. شما باید هنگام استفاده از این کد آن را وارد پروژه خود کنید و قوانین آن را رعایت کنید، و همچنین به نویسنده اصلی (`AmIR / TheLeaderDev`) اعتبار بدهید. نادیده گرفتن این لایسنس ممکن است حق نشر (کپی‌رایت) را نقض کند.
 
 
 </details>
