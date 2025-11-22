@@ -11,5 +11,5 @@ The goal is to create a practical archive — so I can easily find them myself, 
 
 <h1 align="left">Code Collections:</h1>
 
-- PHP Function to Get Iran Time in Shamsi shamsi_dateTime();
+- <a href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/dateTime.php">PHP Function to Get Iran Time - shamsi_dateTime();</a>
 
