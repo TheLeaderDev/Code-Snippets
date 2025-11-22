@@ -6,7 +6,7 @@ Using this function, you can easily retrieve the year, month, day, hour, minute,
 <br>
 <h1 align="left">How to Use</h1>
 
-<a href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/dateTime.php">Open the code snippet file</a>
+<a align="left" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/dateTime.php">Download or access the code</a>
 
 <h5 align="left">Add the file to your project:</h5>
 
@@ -52,7 +52,7 @@ echo $dataTime['month_name'];  // Month name (Persian)
 <br>
 <h1 align="right">نحوه استفاده</h1>
 
-<a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/dateTime.php">فایل تکه کد را باز کنید</a>
+<a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/dateTime.php">دانلود یا مشاهدهٔ کد</a>
 
 <h5 align="right">فایل را به پروژه خود اضافه کنید:</h5>
 
