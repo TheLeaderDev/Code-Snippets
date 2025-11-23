@@ -37,9 +37,9 @@ echo $dataTime['month_name'];  // Month name (Persian)
 
 <br>
 
-> **Important License Notice:** To use this project or any of my code and projects, **it is required that the LICENSE file is present in every path where my code or projects are used**. Only in this case is legal use without violating copyright permitted by me.  
+> **Important License Notice:** To use this project or any of my code and projects, **it is required that the `LICENSE` file is present in every path where my code or projects are used**. Only in this case is legal use without violating copyright permitted by me.  
 > Complying with this demonstrates your support and respect for me as the developer.  
-> To get the LICENSE file, [click here](https://github.com/TheLeaderDev/Code-Snippets/blob/main/LICENSE).
+> To get the `LICENSE` file, [click here](https://github.com/TheLeaderDev/Code-Snippets/blob/main/LICENSE).
 
 <br>
 
@@ -85,9 +85,9 @@ echo $dataTime['month_name']; // نام ماه
 ```
 <br>
 
-> **اطلاعیه مهم درباره مجوز:** برای استفاده از این پروژه یا هر یک از کدها و پروژه‌های من، **ضروری است که در هر مسیر که از کد یا پروژه من استفاده می‌کنید، فایل LICENSE موجود باشد**. تنها در این صورت است که اجازه قانونی استفاده بدون نقض کپی‌رایت از طرف من داده می‌شود.  
+> **اطلاعیه مهم درباره مجوز:** برای استفاده از این پروژه یا هر یک از کدها و پروژه‌های من، **ضروری است که در هر مسیر که از کد یا پروژه من استفاده می‌کنید، فایل `LICENSE` موجود باشد**. تنها در این صورت است که اجازه قانونی استفاده بدون نقض کپی‌رایت از طرف من داده می‌شود.  
 > رعایت این موضوع نشان‌دهنده حمایت و احترام شما به من، توسعه‌دهنده، است.  
-> برای دریافت فایل LICENSE، [اینجا کلیک کنید](https://github.com/TheLeaderDev/Code-Snippets/blob/main/LICENSE).
+> برای دریافت فایل `LICENSE`، [اینجا کلیک کنید](https://github.com/TheLeaderDev/Code-Snippets/blob/main/LICENSE).
 
 
 </details>
