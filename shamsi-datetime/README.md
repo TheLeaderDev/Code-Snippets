@@ -37,7 +37,8 @@ echo $dataTime['month_name'];  // Month name (Persian)
 
 <br>
 
-> **License Notice:** The `LICENSE` file is included alongside this code. You must include and respect it when using this code, and give proper credit to the original author (AmIR / TheLeaderDev). Ignoring the license may violate copyright.
+> **License Notice:** Anyone who wants to use this code or project **must keep and respect the LICENSE file included alongside the code**. Only in this case is legal use without violating copyright permitted.  
+> To get the LICENSE file, [click here](https://github.com/TheLeaderDev/Code-Snippets/blob/main/LICENSE).
 
 <br>
 
@@ -83,7 +84,8 @@ echo $dataTime['month_name']; // نام ماه
 ```
 <br>
 
-> **اطلاعیه لایسنس:** فایل `LICENSE` همراه با این کد ارائه شده است. شما باید هنگام استفاده از این کد آن را وارد پروژه خود کنید و قوانین آن را رعایت کنید، و همچنین به نویسنده اصلی (`AmIR / TheLeaderDev`) اعتبار بدهید. نادیده گرفتن این لایسنس ممکن است حق نشر (کپی‌رایت) را نقض کند.
+> **اطلاعیه مجوز:** هر کسی که می‌خواهد از این کد یا پروژه استفاده کند، **باید فایل لایسنس همراه با کد را نگه دارد و رعایت کند**. تنها در این صورت اجازه استفاده بدون نقض کپی‌رایت به او داده می‌شود.  
+> برای دریافت فایل لایسنس، [اینجا کلیک کنید](https://github.com/TheLeaderDev/Code-Snippets/blob/main/LICENSE).
 
 
 </details>
