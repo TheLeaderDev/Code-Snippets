@@ -6,7 +6,7 @@
 > **P.S:** From now on, every code snippet I add will be recorded here.
 The goal is to create a practical archive — so I can easily find them myself, and you can use them or get inspired. 🌱💻
 
-<h4 align="left">Give me some energy ⭐ by starring this repo, thank you!</h4>
+<h4 align="center">Give me some energy ⭐ by starring this repo, thank you!</h4>
 <br>
 
 <h1 align="left">Code Collections:</h1>
@@ -23,11 +23,13 @@ The goal is to create a practical archive — so I can easily find them myself, 
 <br>
 <br>
 
+<div dir="rtl">
+
 > **پی‌نوشت:** از این به بعد، هر تکه‌کدی که اضافه کنم، در اینجا ثبت خواهد شد.  
 > هدف ایجاد یک آرشیو کاربردی است — تا خودم راحت‌تر به آن‌ها دسترسی داشته باشم و شما هم بتوانید از آن‌ها استفاده کنید یا ایده بگیرید. 🌱💻
+</div>
 
-
-<h4 align="right">با دادن ستاره به این ریپو بهم انرژی بده ⭐، ممنونم!</h4>
+<h4 align="center">با دادن ستاره به این ریپو بهم انرژی بده ⭐، ممنونم!</h4>
 <br>
 
 <h1 align="right">مجموعه کدها:</h1>
