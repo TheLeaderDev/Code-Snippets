@@ -58,18 +58,26 @@ echo $dataTime['month_name'];  // Month name (Persian)
 
 <h5 align="right">فایل را به پروژه خود اضافه کنید:</h5>
 
+<div dir="ltr">
+
 ```
 include 'shamsi_dateTime.php';
 ```
+</div>
 
 <h5 align="right">تابع را فراخوانی کنید:</h5>
+
+<div dir="ltr">
 
 ```
 $dataTime = shamsi_dateTime();
 ```
+</div>
 
 <h5 align="right">دسترسی به مقادیر خروجی:</h5>
 
+<div dir="ltr">
+  
 ```
 echo $dataTime['year']; // سال شمسی
 echo $dataTime['month']; // ماه شمسی (عدد)
@@ -83,6 +91,9 @@ echo $dataTime['datetime']; // تاریخ و زمان ترکیبی
 echo $dataTime['weekday']; // نام روز هفته 
 echo $dataTime['month_name']; // نام ماه 
 ```
+
+</div>
+
 <br>
 
 > **اطلاعیه مهم درباره مجوز:** برای استفاده از این پروژه یا هر یک از کدها و پروژه‌های من، **ضروری است که در هر مسیر که از کد یا پروژه من استفاده می‌کنید، فایل `LICENSE` موجود باشد**. تنها در این صورت است که اجازه قانونی استفاده بدون نقض کپی‌رایت از طرف من داده می‌شود.  
