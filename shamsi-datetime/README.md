@@ -43,7 +43,7 @@ echo $dataTime['month_name'];  // Month name (Persian)
 
 <br>
 
-<details dir="rtl">
+<details >
 <summary>فارسی (کلیک برای باز کردن)</summary> <br>
 
 <h1 align="center">راهنمای استفاده از تابع shamsi_dateTime()</h1>
