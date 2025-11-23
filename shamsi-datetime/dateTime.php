@@ -4,10 +4,29 @@
 // Include this file in your project, call the function,
 // and access the output array using the provided keys.
 
-eval(base64_decode('ZnVuY3Rpb24gdmVyaWZ5TGljZW5zZSgkZmlsZSA9ICdMSUNFTlNFLnR4dCcpIHsKICAgIGhlYWRlcignQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uJyk7CgogICAgdHJ5IHsKICAgICAgICBpZighZmlsZV9leGlzdHMoJGZpbGUpKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBFeGNlcHRpb24oanNvbl9lbmNvZGUoWwogICAgICAgICAgICAgICAgImVycm9yIj0+IkxpY2Vuc2UgZmlsZSBub3QgZm91bmQiLAogICAgICAgICAgICAgICAgImluZm8iPT4iR2V0IHRoZSBsaWNlbnNlIGZpbGUgZnJvbSBodHRwczovL2dpdGh1Yi5jb20vVGhlTGVhZGVyRGV2IgogICAgICAgICAgICBdLCBKU09OX1VORVNDQVBFRF9TTEFTSEVTfEpTT05fVU5FU0NBUEVEX1VOSUNPREUpKTsKICAgICAgICB9CgogICAgICAgICRjb250ZW50ID0gZmlsZV9nZXRfY29udGVudHMoJGZpbGUpOwogICAgICAgICRjb250ZW50ID0gcHJlZ19yZXBsYWNlKCcvXlx4e0ZFRkZ9L3UnLCAnJywgJGNvbnRlbnQpOwogICAgICAgICRjb250ZW50ID0gc3RyX3JlcGxhY2UoWyJcclxuIiwiXHIiXSwiXG4iLCRjb250ZW50KTsKICAgICAgICAkbGluZXMgPSBleHBsb2RlKCJcbiIsJGNvbnRlbnQpOwoKICAgICAgICAkcmVxdWlyZWRfbGluZXMgPSBbCiAgICAgICAgICAgICJDb3B5cmlnaHQgYW5kIHByb2plY3Qgc291cmNlOiIsCiAgICAgICAgICAgICJHaXRIdWI6IGh0dHBzOi8vZ2l0aHViLmNvbS90aGVsZWFkZXJkZXYiLAogICAgICAgICAgICAiSW5mbzogaHR0cHM6Ly9sZWFkZXJkZXYuaW5mbyIKICAgICAgICBdOwoKICAgICAgICBmb3JlYWNoKCRyZXF1aXJlZF9saW5lcyBhcyAkcmxpbmUpIHsKICAgICAgICAgICAgJGZvdW5kID0gZmFsc2U7CiAgICAgICAgICAgIGZvcmVhY2goJGxpbmVzIGFzICRsaW5lKSB7CiAgICAgICAgICAgICAgICBpZih0cmltKHN0cnRvbG93ZXIoJGxpbmUpKSA9PT0gc3RydG9sb3dlcih0cmltKCRybGluZSkpKSB7CiAgICAgICAgICAgICAgICAgICAgJGZvdW5kID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBpZighJGZvdW5kKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgRXhjZXB0aW9uKGpzb25fZW5jb2RlKFsKICAgICAgICAgICAgICAgICAgICAiZXJyb3IiPT4iTGljZW5zZSBpbnZhbGlkIG9yIG5vdCBvcmlnaW5hbCIsCiAgICAgICAgICAgICAgICAgICAgIm1pc3NpbmdfbGluZSI9PiRybGluZSwKICAgICAgICAgICAgICAgICAgICAiaW5mbyI9PiJQbGVhc2UgZ2V0IHRoZSBsaWNlbnNlIGZyb20gaHR0cHM6Ly9naXRodWIuY29tL1RoZUxlYWRlckRldiIKICAgICAgICAgICAgICAgIF0sIEpTT05fVU5FU0NBUEVEX1NMQVNIRVN8SlNPTl9VTkVTQ0FQRURfVU5JQ09ERSkpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIH0gY2F0Y2goRXhjZXB0aW9uICRlKSB7CiAgICAgICAgZXhpdCgkZS0+Z2V0TWVzc2FnZSgpKTsKICAgIH0KfQoKdmVyaWZ5TGljZW5zZSgpOw=='));
-
 function shamsi_dateTime(array $options = []): array
 {
+
+    eval(base64_decode('ZnVuY3Rpb24gdmVyaWZ5TGljZW5zZSgkZmlsZSA9ICdMSUNFTlNFLnR4dCcpIHsKICAgIGhlYWRlcignQ29udG
+    VudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uJyk7CgogICAgdHJ5IHsKICAgICAgICBpZighZmlsZV9leGlzdHMoJGZpbGUpKSB7CiAgICAg
+    ICAgICAgIHRocm93IG5ldyBFeGNlcHRpb24oanNvbl9lbmNvZGUoWwogICAgICAgICAgICAgICAgImVycm9yIj0+IkxpY2Vuc2UgZmlsZS
+    Bub3QgZm91bmQiLAogICAgICAgICAgICAgICAgImluZm8iPT4iR2V0IHRoZSBsaWNlbnNlIGZpbGUgZnJvbSBodHRwczovL2dpdGh1Yi5j
+    b20vVGhlTGVhZGVyRGV2IgogICAgICAgICAgICBdLCBKU09OX1VORVNDQVBFRF9TTEFTSEVTfEpTT05fVU5FU0NBUEVEX1VOSUNPREUp
+    KTsKICAgICAgICB9CgogICAgICAgICRjb250ZW50ID0gZmlsZV9nZXRfY29udGVudHMoJGZpbGUpOwogICAgICAgICRjb250ZW50ID0gcH
+    JlZ19yZXBsYWNlKCcvXlx4e0ZFRkZ9L3UnLCAnJywgJGNvbnRlbnQpOwogICAgICAgICRjb250ZW50ID0gc3RyX3JlcGxhY2UoWyJcclxuIiwiX
+    HIiXSwiXG4iLCRjb250ZW50KTsKICAgICAgICAkbGluZXMgPSBleHBsb2RlKCJcbiIsJGNvbnRlbnQpOwoKICAgICAgICAkcmVxdWlyZWRfbGlu
+    ZXMgPSBbCiAgICAgICAgICAgICJDb3B5cmlnaHQgYW5kIHByb2plY3Qgc291cmNlOiIsCiAgICAgICAgICAgICJHaXRIdWI6IGh0dHBzOi8vZ2l
+    0aHViLmNvbS90aGVsZWFkZXJkZXYiLAogICAgICAgICAgICAiSW5mbzogaHR0cHM6Ly9sZWFkZXJkZXYuaW5mbyIKICAgICAgICBdOwoKIC
+    AgICAgICBmb3JlYWNoKCRyZXF1aXJlZF9saW5lcyBhcyAkcmxpbmUpIHsKICAgICAgICAgICAgJGZvdW5kID0gZmFsc2U7CiAgICAgICAgICA
+    gIGZvcmVhY2goJGxpbmVzIGFzICRsaW5lKSB7CiAgICAgICAgICAgICAgICBpZih0cmltKHN0cnRvbG93ZXIoJGxpbmUpKSA9PT0gc3RydG9sb
+    3dlcih0cmltKCRybGluZSkpKSB7CiAgICAgICAgICAgICAgICAgICAgJGZvdW5kID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICBicmVhazsKICAg
+    ICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBpZighJGZvdW5kKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgRXhjZX
+    B0aW9uKGpzb25fZW5jb2RlKFsKICAgICAgICAgICAgICAgICAgICAiZXJyb3IiPT4iTGljZW5zZSBpbnZhbGlkIG9yIG5vdCBvcmlnaW5hbCIsCiAgICA
+    gICAgICAgICAgICAgICAgIm1pc3NpbmdfbGluZSI9PiRybGluZSwKICAgICAgICAgICAgICAgICAgICAiaW5mbyI9PiJQbGVhc2UgZ2V0IHRoZSBsa
+    WNlbnNlIGZyb20gaHR0cHM6Ly9naXRodWIuY29tL1RoZUxlYWRlckRldiIKICAgICAgICAgICAgICAgIF0sIEpTT05fVU5FU0NBUEVEX1NMQVNIRV
+    N8SlNPTl9VTkVTQ0FQRURfVU5JQ09ERSkpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIH0gY2F0Y2goRXhjZXB0aW9uICRlKSB7CiAgICAg
+    ICAgZXhpdCgkZS0+Z2V0TWVzc2FnZSgpKTsKICAgIH0KfQoKdmVyaWZ5TGljZW5zZSgpOw=='));
+
     // Default settings
     $defaults = [
         'timezone' => 'Asia/Tehran',
@@ -46,7 +65,7 @@ function shamsi_dateTime(array $options = []): array
     $monthsFull = ['فروردین','اردیبهشت','خرداد','تیر','مرداد','شهریور','مهر','آبان','آذر','دی','بهمن','اسفند'];
 
     // Calculating the index of the weekday and month
-    $weekdayIndex = (int) date('w', $opt['timestamp']); // 0=یکشنبه، 6=شنبه
+    $weekdayIndex = (int) date('w', $opt['timestamp']); 
     $monthIndex = (int)$month - 1;
 
     $code = file_get_contents(__FILE__);
@@ -69,24 +88,3 @@ function shamsi_dateTime(array $options = []): array
         'month_name' => $monthsFull[$monthIndex],
     ];
 }
-
-
-//=============================
-//Usage guide for the function
-//=============================
-
-//Example usage:
-//$dataTime = shamsi_dateTime();
-
-// Access individual values
-//echo $dataTime['year'] . "\n";
-//echo $dataTime['month'] . "\n";
-//echo $dataTime['day'] . "\n";
-//echo $dataTime['hour'] . "\n";
-//echo $dataTime['minute'] . "\n";
-//echo $dataTime['second'] . "\n";
-//echo $dataTime['date'] . "\n";
-//echo $dataTime['time'] . "\n";
-//echo $dataTime['datetime'] . "\n";
-//echo $dataTime['weekday'] . "\n";
-//echo $dataTime['month_name'] . "\n";
