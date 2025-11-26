@@ -11,12 +11,12 @@ Using this function, you can easily retrieve the year, month, day, hour, minute,
 <h5 align="left">Add the file to your project:</h5>
 
 ```
-include 'shamsi_dateTime.php';
+include 'getDetaTimeShamsi.php';
 ```
 <h5 align="left">Call the function:</h5>
 
 ```
-$dataTime = shamsi_dateTime();
+$dataTime = getDetaTimeShamsi();
 ```
 
 <h5 align="left">Access the output values:</h5>
@@ -75,7 +75,7 @@ Array
 <div dir="ltr">
 
 ```
-include 'shamsi_dateTime.php';
+include 'getDetaTimeShamsi.php';
 ```
 </div>
 
@@ -84,7 +84,7 @@ include 'shamsi_dateTime.php';
 <div dir="ltr">
 
 ```
-$dataTime = shamsi_dateTime();
+$dataTime = getDetaTimeShamsi();
 ```
 </div>
 
