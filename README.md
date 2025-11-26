@@ -11,8 +11,9 @@ The goal is to create a practical archive — so I can easily find them myself, 
 
 <h1 align="left">Code Collections:</h1>
 
-- <a href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/README.md">Get Shamsi (Iran) date & time from the system — shamsi_dateTime()</a>
-- <a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getUserinfo/README.md">Get detailed user information (IP, browser, device, etc.) — getUserInfo()</a>
+- <a align="left" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/README.md">Get Shamsi (Iran) date & time from the system — shamsi_dateTime()</a>
+- <a align="left" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getUserinfo/README.md">Get detailed user information (IP, browser, device, etc.) — getUserInfo()</a>
+- <a align="left" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getIPinfo/README.md">Get detailed IP information (country, region, city, ISP) — getIPinfp()</a>
 
 <br>
 
@@ -37,5 +38,5 @@ The goal is to create a practical archive — so I can easily find them myself, 
 
 - <a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/README.md">گرفتن تاریخ و زمان شمسی (ایران) از سیستم — shamsi_dateTime()</a>
 - <a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getUserinfo/README.md">گرفتن اطلاعات دقیق کاربر (آی‌پی، مرورگر، دستگاه و …) — getUserInfo()</a>
-  
+ - <a align="left" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getIPinfo/README.md">دریافت اطلاعات دقیق آی‌پی (کشور، منطقه، شهر، ارائه‌دهنده اینترنت) — getIPinfp()</a> 
 </details>
