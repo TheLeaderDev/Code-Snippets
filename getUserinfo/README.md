@@ -24,6 +24,40 @@ $info = getUserInfo();
 print_r($info);
 ```
 
+<h5 align="left">Example Output (Array):</h5>
+
+```
+Array
+(
+    [user] => Array
+        (
+            [ip] => 1.1.1.1
+            [browser] => Chrome 121.0.0.0
+            [os] => Windows
+            [device] => Desktop
+            [isBot] => false
+            [darkMode] => dark
+            [time] => 2025-11-26 15:35:12
+        )
+
+    [request] => Array
+        (
+            [url] => /files/getUserinfo.php
+            [referrer] => https://leaderdev.info/
+        )
+
+    [ipInfo] => Array
+        (
+            [country] => Australia (AU)
+            [region] => Queensland
+            [city] => South Brisbane
+            [isp] => Cloudflare, Inc.
+            [localTime] => 23:05 (+1000) 2025.11.26
+        )
+)
+
+```
+
 <br>
 <br>
 
@@ -63,6 +97,44 @@ $info = getUserInfo();
   
 ```
 print_r($info);
+```
+
+</div>
+
+<h5 align="right">نمونهٔ خروجی (آرایه):</h5>
+
+<div dir="ltr">
+  
+```
+Array
+(
+    [user] => Array
+        (
+            [ip] => 1.1.1.1
+            [browser] => Chrome 121.0.0.0
+            [os] => Windows
+            [device] => Desktop
+            [isBot] => false
+            [darkMode] => dark
+            [time] => 2025-11-26 15:35:12
+        )
+
+    [request] => Array
+        (
+            [url] => /files/getUserinfo.php
+            [referrer] => https://leaderdev.info/
+        )
+
+    [ipInfo] => Array
+        (
+            [country] => Australia (AU)
+            [region] => Queensland
+            [city] => South Brisbane
+            [isp] => Cloudflare, Inc.
+            [localTime] => 23:05 (+1000) 2025.11.26
+        )
+)
+
 ```
 
 </div>
