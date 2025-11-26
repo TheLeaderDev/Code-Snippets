@@ -45,16 +45,29 @@ function getUserInfo(): array {
     if (preg_match('/mobile/i',$ua)) $device='Mobile';
     elseif (preg_match('/tablet|ipad/i',$ua)) $device='Tablet';
 
-    // Detect bot
+    // Detect bot (always boolean)
     $bots = ['googlebot','bingbot','slurp','duckduckbot','baiduspider','yandex','sogou','exabot','facebot','ia_archiver'];
-    $isBot=false;
-    $uaLower=strtolower($ua);
-    foreach ($bots as $bot) if(strpos($uaLower,$bot)!==false){ $isBot=true; break; }
+    $isBot = false;
+    $uaLower = strtolower($ua);
+    foreach ($bots as $bot) {
+        if(strpos($uaLower,$bot)!==false){
+            $isBot = true;
+            break;
+        }
+    }
 
-    // Dark Mode
-    $darkMode = $_SERVER['HTTP_SEC_CH_PREFERS_COLOR_SCHEME'] ?? null;
+    // Dark Mode (cookie first, then header, else null)
+    $darkMode = null;
+    if(!empty($_COOKIE['theme'])){
+        $val = strtolower($_COOKIE['theme']);
+        if($val==='dark' || $val==='light') $darkMode = $val;
+    }
+    if($darkMode === null && isset($_SERVER['HTTP_SEC_CH_PREFERS_COLOR_SCHEME'])){
+        $val = strtolower($_SERVER['HTTP_SEC_CH_PREFERS_COLOR_SCHEME']);
+        if($val==='dark' || $val==='light') $darkMode = $val;
+    }
 
-    // Referrer و URL
+    // Referrer & URL
     $url = $_SERVER['REQUEST_URI'] ?? null;
     $referrer = $_SERVER['HTTP_REFERER'] ?? null;
 
@@ -92,8 +105,8 @@ function getUserInfo(): array {
             'browser'=>$browser,
             'os'=>$os,
             'device'=>$device,
-            'isBot'=>$isBot,
-            'darkMode'=>$darkMode,
+            'isBot'=> $isBot,      // boolean
+            'darkMode'=> $darkMode, // dark / light / null
             'time'=>date('Y-m-d H:i:s')
         ],
         'request'=>[
