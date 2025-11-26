@@ -1,6 +1,5 @@
-<h1 align="center">Usage Guide for shamsi_dateTime() Function</h1>
-<p align="center">This function converts the system or server Gregorian date and time into the Persian (Solar Hijri) calendar.
-Using this function, you can easily retrieve the year, month, day, hour, minute, second, and even the names of months and weekdays in Persian.</p>
+<h1 align="center">Usage guide for getUserInfo() function</h1>
+<p align="center">This function basically tells you everything about the user who visits your site. With it, you can see the user's IP, their browser and version, operating system, device type (mobile, tablet, or desktop), whether they're a bot or not, their dark mode preference, the request time, the current page URL and referrer — and even detailed IP info like their country, region, city, ISP, and local time.</p>
 
 <h4 align="center">Give me some energy ⭐ by starring this repo, thank you!</h4>
 <br>
@@ -11,28 +10,18 @@ Using this function, you can easily retrieve the year, month, day, hour, minute,
 <h5 align="left">Add the file to your project:</h5>
 
 ```
-include 'shamsi_dateTime.php';
+include 'Userinfo.php';
 ```
 <h5 align="left">Call the function:</h5>
 
 ```
-$dataTime = shamsi_dateTime();
+$info = getUserInfo();
 ```
 
 <h5 align="left">Access the output values:</h5>
 
 ```
-echo $dataTime['year'];        // Persian year
-echo $dataTime['month'];       // Persian month (number)
-echo $dataTime['day'];         // Persian day
-echo $dataTime['hour'];        // Hour
-echo $dataTime['minute'];      // Minute
-echo $dataTime['second'];      // Second
-echo $dataTime['date'];        // Date in yyyy/mm/dd format
-echo $dataTime['time'];        // Time in HH:mm:ss format
-echo $dataTime['datetime'];    // Combined date and time
-echo $dataTime['weekday'];     // Weekday name (Persian)
-echo $dataTime['month_name'];  // Month name (Persian)
+print_r($info);
 ```
 
 <br>
@@ -46,9 +35,8 @@ echo $dataTime['month_name'];  // Month name (Persian)
 <details dir="rtl">
 <summary>فارسی (کلیک برای باز کردن)</summary> <br>
 
-<h1 align="center">راهنمای استفاده از تابع shamsi_dateTime()</h1>
-<p align="center">این تابع تاریخ و زمان میلادی سیستم یا سرور را به تقویم شمسی (هجری شمسی) تبدیل می‌کند.  
-با استفاده از این تابع، می‌توانید به راحتی سال، ماه، روز، ساعت، دقیقه، ثانیه و حتی نام ماه‌ها و روزهای هفته را به زبان فارسی دریافت کنید.</p>
+<h1 align="center">راهنمای استفاده از تابع getUserInfo()</h1>
+<p align="center">این تابع همه چیز رو درباره کاربری که سایتت رو باز کرده بهت میگه. باهاش می‌تونی IP کاربر، مرورگر و نسخه‌اش، سیستم عامل، نوع دستگاه (موبایل، تبلت یا دسکتاپ)، اینکه رباته یا نه، حالت دارک مودش، زمان درخواست، آدرس صفحه فعلی و Referrer، و حتی اطلاعات دقیق IP مثل کشور، منطقه، شهر، ارائه‌دهنده اینترنت و زمان محلی رو ببینی.</p>
 
 <h4 align="center">با دادن ⭐ به این ریپو انرژی بدهید، ممنون!</h4>
 <br>
@@ -61,7 +49,7 @@ echo $dataTime['month_name'];  // Month name (Persian)
 <div dir="ltr">
 
 ```
-include 'shamsi_dateTime.php';
+include 'Userinfo.php';
 ```
 </div>
 
@@ -70,7 +58,7 @@ include 'shamsi_dateTime.php';
 <div dir="ltr">
 
 ```
-$dataTime = shamsi_dateTime();
+$info = getUserInfo();
 ```
 </div>
 
@@ -79,17 +67,7 @@ $dataTime = shamsi_dateTime();
 <div dir="ltr">
   
 ```
-echo $dataTime['year']; // سال شمسی
-echo $dataTime['month']; // ماه شمسی (عدد)
-echo $dataTime['day']; // روز شمسی
-echo $dataTime['hour']; // ساعت
-echo $dataTime['minute']; // دقیقه
-echo $dataTime['second']; // ثانیه
-echo $dataTime['date']; // تاریخ به صورت yyyy/mm/dd
-echo $dataTime['time']; // زمان به صورت HH:mm:ss
-echo $dataTime['datetime']; // تاریخ و زمان ترکیبی
-echo $dataTime['weekday']; // نام روز هفته 
-echo $dataTime['month_name']; // نام ماه 
+print_r($info);
 ```
 
 </div>
