@@ -6,7 +6,7 @@
 <br>
 <h1 align="left">How to Use</h1>
 
-<a align="left" href="https://github.com/TheLeaderDev/Code-Snippets/tree/main/getUserinfo">Download or access the code</a>
+<a align="left" href="https://github.com/TheLeaderDev/Code-Snippets/tree/main/getIPinfo">Download or access the code</a>
 
 <h5 align="left">Add the file to your project:</h5>
 
@@ -59,7 +59,7 @@ Array
 <br>
 <h1 align="right">نحوه استفاده</h1>
 
-<a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/tree/main/getUserinfo">دانلود یا مشاهدهٔ کد</a>
+<a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/tree/main/getIPinfo">دانلود یا مشاهدهٔ کد</a>
 
 <h5 align="right">فایل را به پروژه خود اضافه کنید:</h5>
 
