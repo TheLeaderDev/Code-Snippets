@@ -1,5 +1,6 @@
 <h1 align="center">Usage guide for getUserInfo() function</h1>
 <p align="center">This function basically tells you everything about the user who visits your site. With it, you can see the user's IP, their browser and version, operating system, device type (mobile, tablet, or desktop), whether they're a bot or not, their dark mode preference, the request time, the current page URL and referrer — and even detailed IP info like their country, region, city, ISP, and local time.</p>
+<p align="center">Important: This function gets some of its info from the Check Host API, so it definitely needs an internet connection. Keep in mind that if the site's policies change in the future, the function might run into issues since it's dependent on it. But don’t worry—if that</p>
 
 <h4 align="center">Give me some energy ⭐ by starring this repo, thank you!</h4>
 <br>
@@ -66,6 +67,7 @@ Array
 
 <h1 align="center">راهنمای استفاده از تابع getUserInfo()</h1>
 <p align="center">این تابع همه چیز رو درباره کاربری که سایتت رو باز کرده بهت میگه. باهاش می‌تونی IP کاربر، مرورگر و نسخه‌اش، سیستم عامل، نوع دستگاه (موبایل، تبلت یا دسکتاپ)، اینکه رباته یا نه، حالت دارک مودش، زمان درخواست، آدرس صفحه فعلی و Referrer، و حتی اطلاعات دقیق IP مثل کشور، منطقه، شهر، ارائه‌دهنده اینترنت و زمان محلی رو ببینی.</p>
+<p align="center">نکته مهم: این تابع بعضی اطلاعاتش رو از API سایت Check Host می‌گیره، پس حتماً اینترنت لازم داره. یادت باشه که اگه سیاست‌های سایت در آینده عوض بشه، ممکنه تابع هم به مشکل بخوره چون وابسته‌س. البته اگه این اتفاق بیفته، من هم سعی می‌کنم تابع رو آپدیت کنم.</p>
 
 <h4 align="center">با دادن ⭐ به این ریپو انرژی بدهید، ممنون!</h4>
 <br>
