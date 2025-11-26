@@ -116,14 +116,3 @@ function getUserInfo(): array {
         'ipInfo'=>$ipInfo
     ];
 }
-
-
-//================
-// How to use
-//================
-
-//$info = getUserInfo();
-//echo "<pre>";
-//print_r($info);
-//echo "</pre>";
-
