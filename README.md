@@ -11,8 +11,8 @@ The goal is to create a practical archive — so I can easily find them myself, 
 
 <h1 align="left">Code Collections:</h1>
 
-- <a href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/README.md">PHP Function to Get Iran Time - shamsi_dateTime()</a>
-- <a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getUserinfo/README.md">Get detailed user information (IP, operating system, etc.) - UserInfo::get()</a>
+- <a href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/README.md">Get Shamsi (Iran) date & time from the system — shamsi_dateTime()</a>
+- <a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getUserinfo/README.md">Get detailed user information (IP, browser, device, etc.) — getUserInfo()</a>
 
 <br>
 
@@ -35,7 +35,7 @@ The goal is to create a practical archive — so I can easily find them myself, 
 
 <h1 align="right">مجموعه کدها:</h1>
 
-- <a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/README.md">تابع PHP برای دریافت زمان ایران - shamsi_dateTime()</a>
-- <a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getUserinfo/README.md">دریافت اطلاعات دقیق کاربر (ایپی، سیستم عامل و …) – UserInfo::get()</a>
+- <a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/shamsi-datetime/README.md">گرفتن تاریخ و زمان شمسی (ایران) از سیستم — shamsi_dateTime()</a>
+- <a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getUserinfo/README.md">گرفتن اطلاعات دقیق کاربر (آی‌پی، مرورگر، دستگاه و …) — getUserInfo()</a>
   
 </details>
