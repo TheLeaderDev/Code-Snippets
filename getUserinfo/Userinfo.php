@@ -109,8 +109,8 @@ function getUserInfo(): array {
 // How to use
 //================
 
-$info = getUserInfo();
-echo "<pre>";
-print_r($info);
-echo "</pre>";
+//$info = getUserInfo();
+//echo "<pre>";
+//print_r($info);
+//echo "</pre>";
 
