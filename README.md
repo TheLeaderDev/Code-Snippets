@@ -12,6 +12,7 @@ The goal is to create a practical archive — so I can easily find them myself, 
 <h1 align="left">Code Collections:</h1>
 
 - <a align="left" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getDetaTimeShamsi/README.md">Get Shamsi (Iran) date & time from the system — getDetaTimeShamsi()</a>
+- <a align="left" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getChangeData/README.md">Get date conversions (Shamsi, Gregorian, and Hijri) - getChangeData()</a>
 - <a align="left" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getUserinfo/README.md">Get detailed user information (IP, browser, device, etc.) — getUserInfo()</a>
 - <a align="left" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getIPinfo/README.md">Get detailed IP information (country, region, city, ISP) — getIPinfp()</a>
 
@@ -37,6 +38,7 @@ The goal is to create a practical archive — so I can easily find them myself, 
 <h1 align="right">مجموعه کدها:</h1>
 
 - <a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getDetaTimeShamsi/README.md">گرفتن تاریخ و زمان شمسی (ایران) از سیستم — getDetaTimeShamsi()</a>
+- <a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getChangeData/README.md">دریافت تبدیل‌های تاریخ (شمسی، میلادی و هجری) – getChangeData()</a>
 - <a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getUserinfo/README.md">گرفتن اطلاعات دقیق کاربر (آی‌پی، مرورگر، دستگاه و …) — getUserInfo()</a>
  - <a align="left" href="https://github.com/TheLeaderDev/Code-Snippets/blob/main/getIPinfo/README.md">دریافت اطلاعات دقیق آی‌پی (کشور، منطقه، شهر، ارائه‌دهنده اینترنت) — getIPinfp()</a> 
 </details>
