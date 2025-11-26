@@ -56,15 +56,15 @@ function getUserInfo(): array {
         }
     }
 
-    // Dark Mode (cookie first, then header, else null)
-    $darkMode = null;
+    // Theme (cookie first, then header, else null)
+    $themeValue = null;
     if(!empty($_COOKIE['theme'])){
         $val = strtolower($_COOKIE['theme']);
-        if($val==='dark' || $val==='light') $darkMode = $val;
+        if($val==='dark' || $val==='light') $themeValue = $val;
     }
-    if($darkMode === null && isset($_SERVER['HTTP_SEC_CH_PREFERS_COLOR_SCHEME'])){
+    if($themeValue === null && isset($_SERVER['HTTP_SEC_CH_PREFERS_COLOR_SCHEME'])){
         $val = strtolower($_SERVER['HTTP_SEC_CH_PREFERS_COLOR_SCHEME']);
-        if($val==='dark' || $val==='light') $darkMode = $val;
+        if($val==='dark' || $val==='light') $themeValue = $val;
     }
 
     // Referrer & URL
@@ -105,13 +105,13 @@ function getUserInfo(): array {
             'browser'=>$browser,
             'os'=>$os,
             'device'=>$device,
-            'isBot'=> $isBot,      // boolean
-            'darkMode'=> $darkMode, // dark / light / null
+            'isBot'=> $isBot, // true / false / null      
+            'theme'=> $themeValue, // dark / light / null
             'time'=>date('Y-m-d H:i:s')
         ],
         'request'=>[
             'url'=>$url,
-            'referrer'=>$referrer
+            'referrer'=>$referrer // URL of the previous page or null
         ],
         'ipInfo'=>$ipInfo
     ];
