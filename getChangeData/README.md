@@ -1,6 +1,6 @@
-<h1 align="center">Usage guide for getIPinfo() function</h1>
-<p align="center">This function returns the public information of an IP address. You just need to pass an IP to it, and in the output, you can get details like the country, region, city, ISP/organization, and local time—just like that!</p>
-<p align="center">Important: This function gets its information from the Check Host API, so it definitely needs an internet connection. Keep in mind that if the site's policies change in the future, the function might run into issues since it's dependent on it. But don’t worry—if that happens, I will also try to update the function.</p>
+<h1 align="center">Usage guide for getChangeData() function</h1>
+<p align="center">This function takes any date you give it, no matter the format, and converts it into three main calendars: Shamsi, Gregorian, and Hijri. You can pass a full date string or an array, and it will return a clean, organized array with the year, month, day, formatted output, weekday name, and month title for each calendar—super easy to convert dates back and forth without any hassle.</p>
+<p align="center">Very important: This function gets its data from time.ir, so it definitely needs an internet connection. Keep in mind that if the site’s policies or structure change in the future, the function might stop working properly since it depends on that site. But don’t worry—if that happens, I’ll make sure to update the function.</p>
 
 <h4 align="center">Give me some energy ⭐ by starring this repo, thank you!</h4>
 <br>
@@ -11,18 +11,33 @@
 <h5 align="left">Add the file to your project:</h5>
 
 ```
-include 'IPinfo.php';
+include 'getChangeData.php';
 ```
+
 <h5 align="left">Call the function:</h5>
 
+<h6 align="left">Using a date string</h6>
+
 ```
-$info = getIPinfo("1.1.1.1");
+$result = getChangeData('2004-01-17');
+```
+
+<h6 align="left">Or using a date array</h6>
+
+```
+$result = getChangeData(['date'=>'2025-11-26']);
+```
+
+<h6 align="left">Or using an array with year/month/day</h6>
+
+```
+$result = getChangeData(['year'=>1404,'month'=>9,'day'=>5']);
 ```
 
 <h5 align="left">Access the output values:</h5>
 
 ```
-print_r($info);
+print_r($result);
 ```
 
 <h5 align="left">Example Output (Array):</h5>
@@ -30,18 +45,41 @@ print_r($info);
 ```
 Array
 (
-    [IP address] => 1.1.1.1
-    [Host name] => resolver1.example-dns.net
-    [IP range] => 1.1.0.0-1.1.255.255 CIDR
-    [ASN] => 13335
-    [ISP / Org] => Example Global Network (EGN)
-    [Country] => United States (US)
-    [Region] => California
-    [City] => San Francisco
-    [Time zone] => America/Los_Angeles, GMT-0800
-    [Local time] => 06:18 (PST) 2025.11.26
-    [Postal Code] => 94107
+    [shamsi] => Array
+        (
+            [year] => 1382
+            [month] => 10
+            [day] => 27
+            [ymd] => 1382-10-27
+            [weekday] => شنبه
+            [month_name] => دی
+            [full] => شنبه - 27 - دی
+        )
+
+    [gregorian] => Array
+        (
+            [year] => 2004
+            [month] => 01
+            [day] => 17
+            [ymd] => 2004-01-17
+            [weekday] => Saturday
+            [month_name] => January
+            [full] => Saturday - January - 17 - 2004
+        )
+
+    [hijri] => Array
+        (
+            [year] => 1424
+            [month] => 11
+            [day] => 24
+            [ymd] => 1424-11-24
+            [weekday] => ‫السبت‬
+            [month_name] => ذوالقعده
+            [full] => ‫السبت‬ - 24 - ذوالقعده - 1424
+        )
+
 )
+
 
 ```
 
@@ -51,9 +89,9 @@ Array
 <details dir="rtl">
 <summary>فارسی (کلیک برای باز کردن)</summary> <br>
 
-<h1 align="center">راهنمای استفاده از تابع getIPinfo()</h1>
-<p align="center">این تابع اطلاعات عمومی یک آدرس IP را برمی‌گرداند. فقط کافی است یک IP به آن پاس بدهید و در خروجی می‌توانید جزئیاتی مثل کشور، منطقه، شهر، ISP/سازمان و زمان محلی را دریافت کنید—به همین راحتی!</p>
-<p align="center">مهم: این تابع  اطلاعات خود را از API سایت Check Host می‌گیرد، بنابراین حتماً به اینترنت نیاز دارد. به یاد داشته باشید که اگر سیاست‌های سایت در آینده تغییر کند، ممکن است تابع دچار مشکل شود چون وابسته به آن است. اما نگران نباشید—اگر این اتفاق بیفتد، من هم سعی می‌کنم تابع را به‌روزرسانی کنم.</p>
+<h1 align="center">راهنمای استفاده از تابع getChangeData()</h1>
+<p align="center">این تابع هر تاریخی که بهش بدی، فرقی نمی‌کنه چه فرمتی داشته باشه، برات به سه تقویم اصلی تبدیلش می‌کنه: شمسی، میلادی و هجری. می‌تونی یه رشته تاریخ کامل یا یه آرایه بهش بدی و در خروجی یه آرایه مرتب و تمیز می‌گیری که شامل سال، ماه، روز، خروجی آماده، نام روز هفته و اسم ماه برای هر تقویمه—خیلی راحت می‌تونی تاریخ‌ها رو به هم تبدیل کنی بدون دردسر.</p>
+<p align="center">خیلی مهم: این تابع اطلاعات خودش رو از سایت time.ir می‌گیره، پس حتماً اینترنت نیاز داره. یادت باشه که اگه سیاست‌ها یا ساختار سایت در آینده تغییر کنه، ممکنه تابع دیگه درست کار نکنه چون وابسته به اون سایت هست. ولی نگران نباش—اگه این اتفاق بیفته، من هم سعی می‌کنم تابع رو به‌روزرسانی کنم.</p>
 
 <h4 align="center">با دادن ⭐ به این ریپو انرژی بدهید، ممنون!</h4>
 <br>
@@ -63,53 +101,82 @@ Array
 
 <h5 align="right">فایل را به پروژه خود اضافه کنید:</h5>
 
-<div dir="ltr">
-
 ```
-include 'IPinfo.php';
+include 'getChangeData.php';
 ```
-</div>
 
 <h5 align="right">تابع را فراخوانی کنید:</h5>
 
-<div dir="ltr">
+<h6 align="right">استفاده از یک رشته تاریخ</h6>
 
 ```
-$info = getIPinfo("1.1.1.1");
+$result = getChangeData('2004-01-17');
 ```
-</div>
+
+<h6 align="right">یا استفاده از یک آرایه تاریخ</h6>
+
+```
+$result = getChangeData(['date'=>'2025-11-26']);
+```
+
+<h6 align="right">یا استفاده از یک آرایه شامل سال/ماه/روز</h6>
+
+```
+$result = getChangeData(['year'=>1404,'month'=>9,'day'=>5']);
+```
 
 <h5 align="right">دسترسی به مقادیر خروجی:</h5>
 
-<div dir="ltr">
-  
 ```
-print_r($info);
+print_r($result);
 ```
-
-</div>
 
 <h5 align="right">نمونهٔ خروجی (آرایه):</h5>
 
 <div dir="ltr">
-  
+
 ```
 Array
 (
-    [IP address] => 1.1.1.1
-    [Host name] => resolver1.example-dns.net
-    [IP range] => 1.1.0.0-1.1.255.255 CIDR
-    [ASN] => 13335
-    [ISP / Org] => Example Global Network (EGN)
-    [Country] => United States (US)
-    [Region] => California
-    [City] => San Francisco
-    [Time zone] => America/Los_Angeles, GMT-0800
-    [Local time] => 06:18 (PST) 2025.11.26
-    [Postal Code] => 94107
+    [shamsi] => Array
+        (
+            [year] => 1382
+            [month] => 10
+            [day] => 27
+            [ymd] => 1382-10-27
+            [weekday] => شنبه
+            [month_name] => دی
+            [full] => شنبه - 27 - دی
+        )
+
+    [gregorian] => Array
+        (
+            [year] => 2004
+            [month] => 01
+            [day] => 17
+            [ymd] => 2004-01-17
+            [weekday] => Saturday
+            [month_name] => January
+            [full] => Saturday - January - 17 - 2004
+        )
+
+    [hijri] => Array
+        (
+            [year] => 1424
+            [month] => 11
+            [day] => 24
+            [ymd] => 1424-11-24
+            [weekday] => ‫السبت‬
+            [month_name] => ذوالقعده
+            [full] => ‫السبت‬ - 24 - ذوالقعده - 1424
+        )
+
 )
 
+
 ```
+</div>
+
 
 </div>
 
