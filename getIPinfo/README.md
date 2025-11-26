@@ -1,6 +1,6 @@
 <h1 align="center">Usage guide for getIPinfo() function</h1>
 <p align="center">This function returns the public information of an IP address. You just need to pass an IP to it, and in the output, you can get details like the country, region, city, ISP/organization, and local time—just like that!</p>
-<p align="center">Important: This function gets its information from the Check Host API, so it definitely needs an internet connection. Keep in mind that if the site's policies change in the future, the function might run into issues since it's dependent on it. But don’t worry—if that happens, I will also try to update the function.</p>
+<p align="center">Very important: This function gets its information from the Check Host API, so it definitely needs an internet connection. Keep in mind that if the site's policies change in the future, the function might run into issues since it's dependent on it. But don’t worry—if that happens, I will also try to update the function.</p>
 
 <h4 align="center">Give me some energy ⭐ by starring this repo, thank you!</h4>
 <br>
@@ -53,7 +53,7 @@ Array
 
 <h1 align="center">راهنمای استفاده از تابع getIPinfo()</h1>
 <p align="center">این تابع اطلاعات عمومی یک آدرس IP را برمی‌گرداند. فقط کافی است یک IP به آن پاس بدهید و در خروجی می‌توانید جزئیاتی مثل کشور، منطقه، شهر، ISP/سازمان و زمان محلی را دریافت کنید—به همین راحتی!</p>
-<p align="center">مهم: این تابع  اطلاعات خود را از API سایت Check Host می‌گیرد، بنابراین حتماً به اینترنت نیاز دارد. به یاد داشته باشید که اگر سیاست‌های سایت در آینده تغییر کند، ممکن است تابع دچار مشکل شود چون وابسته به آن است. اما نگران نباشید—اگر این اتفاق بیفتد، من هم سعی می‌کنم تابع را به‌روزرسانی کنم.</p>
+<p align="center">خیلی مهم: این تابع  اطلاعات خود را از API سایت Check Host می‌گیرد، بنابراین حتماً به اینترنت نیاز دارد. به یاد داشته باشید که اگر سیاست‌های سایت در آینده تغییر کند، ممکن است تابع دچار مشکل شود چون وابسته به آن است. اما نگران نباشید—اگر این اتفاق بیفتد، من هم سعی می‌کنم تابع را به‌روزرسانی کنم.</p>
 
 <h4 align="center">با دادن ⭐ به این ریپو انرژی بدهید، ممنون!</h4>
 <br>
