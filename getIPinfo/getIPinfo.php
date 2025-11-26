@@ -46,10 +46,3 @@ function getIPinfp($ip) {
 
     return $result;
 }
-
-//================
-// How to use
-//================
-
-//$info = getIPinfp("1.1.1.1");
-//print_r($info);
