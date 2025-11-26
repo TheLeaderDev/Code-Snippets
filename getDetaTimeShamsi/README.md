@@ -6,7 +6,7 @@ Using this function, you can easily retrieve the year, month, day, hour, minute,
 <br>
 <h1 align="left">How to Use</h1>
 
-<a align="left" href="https://github.com/TheLeaderDev/Code-Snippets/tree/main/shamsi-datetime">Download or access the code</a>
+<a align="left" href="https://github.com/TheLeaderDev/Code-Snippets/tree/main/getDetaTimeShamsi">Download or access the code</a>
 
 <h5 align="left">Add the file to your project:</h5>
 
@@ -68,7 +68,7 @@ Array
 <br>
 <h1 align="right">نحوه استفاده</h1>
 
-<a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/tree/main/shamsi-datetime">دانلود یا مشاهدهٔ کد</a>
+<a align="right" href="https://github.com/TheLeaderDev/Code-Snippets/tree/main/getDetaTimeShamsi">دانلود یا مشاهدهٔ کد</a>
 
 <h5 align="right">فایل را به پروژه خود اضافه کنید:</h5>
 
