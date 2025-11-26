@@ -35,6 +35,25 @@ echo $dataTime['weekday'];     // Weekday name (Persian)
 echo $dataTime['month_name'];  // Month name (Persian)
 ```
 
+<h5 align="left">Example Output (Array):</h5>
+
+```
+Array
+(
+    [year] => 1404
+    [month] => 08
+    [day] => 26
+    [hour] => 15
+    [minute] => 45
+    [second] => 30
+    [date] => 1404/08/26
+    [time] => 15:45:30
+    [datetime] => 1404/08/26 15:45:30
+    [weekday] => شنبه
+    [month_name] => آبان
+)
+```
+
 <br>
 <br>
 
@@ -85,6 +104,29 @@ echo $dataTime['time']; // زمان به صورت HH:mm:ss
 echo $dataTime['datetime']; // تاریخ و زمان ترکیبی
 echo $dataTime['weekday']; // نام روز هفته 
 echo $dataTime['month_name']; // نام ماه 
+```
+
+</div>
+
+<h5 align="right">نمونهٔ خروجی (آرایه):</h5>
+
+<div dir="ltr">
+  
+```
+Array
+(
+    [year] => 1404
+    [month] => 08
+    [day] => 26
+    [hour] => 15
+    [minute] => 45
+    [second] => 30
+    [date] => 1404/08/26
+    [time] => 15:45:30
+    [datetime] => 1404/08/26 15:45:30
+    [weekday] => شنبه
+    [month_name] => آبان
+)
 ```
 
 </div>
