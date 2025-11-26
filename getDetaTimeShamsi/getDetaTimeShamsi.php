@@ -4,7 +4,7 @@
 // Include this file in your project, call the function,
 // and access the output array using the provided keys.
 
-function shamsi_dateTime(array $options = []): array
+function getDetaTimeShamsi(array $options = []): array
 {
     // Default settings
     $defaults = [
