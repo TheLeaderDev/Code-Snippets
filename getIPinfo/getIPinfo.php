@@ -8,7 +8,7 @@
 // If the request fails, the function returns ["error" => "Failed to fetch data."].  
 //==============================================================
 
-function getIPinfp($ip) {
+function getIPinfo($ip) {
     $url = "https://check-host.net/ip-info?host=" . urlencode($ip);
 
     $ch = curl_init();
